@@ -1,0 +1,16 @@
+<!Doctype html>
+<html>
+<head>
+<script>
+function myFunction() {
+ 	document.getElementById("demo").innerHTML = "whats up";
+}
+</script>
+</head>
+<body>
+<h1>hi</h1>
+<p id="demo">lol</p>
+<button type="button" onclick="myFunction()">Try it bro</button>
+<script> window.alert("maa chod denge")</script>
+</body>
+</html>
