@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First Web Page</h2>
+<p id="demo">My first paragraph.</p>
+
+<script>
+var x = 7;
+var y = 8;
+z = x+y
+function myF() {
+document.getElementById("demo").innerHTML=z
+}
+
+</script>
+<button type="button" onclick = "myF()" id="one">click it</button>
+<button type="button" id = "dem" onclick = "document.getElementById('dem2').innerHTML = 'awesome'">click it na</button>
+<button type="button" id ="dem2" onclick = "document.getElementById('dem').innerHTML = 'LOL'">click it bro</button>
+</body>
+</html> 
