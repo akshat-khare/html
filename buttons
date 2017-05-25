@@ -17,5 +17,6 @@ document.getElementById("demo").innerHTML=z
 <button type="button" onclick = "myF()" id="one">click it</button>
 <button type="button" id = "dem" onclick = "document.getElementById('dem2').innerHTML = 'awesome'">click it na</button>
 <button type="button" id ="dem2" onclick = "document.getElementById('dem').innerHTML = 'LOL'">click it bro</button>
+<script>window.alert("maa chod dunga bc teri")</script>
 </body>
 </html> 
